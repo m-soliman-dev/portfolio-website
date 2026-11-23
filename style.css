@@ -168,6 +168,9 @@ body {
 /* Contact */
 .contact { text-align: left; padding-bottom: 88px; }
 .contact .btn { margin-top: 20px; }
+.contact-secondary { margin-top: 18px; font-size: .95rem; }
+.contact-secondary a { color: var(--accent); text-decoration: none; }
+.contact-secondary a:hover { text-decoration: underline; }
 
 /* Footer */
 .footer {
