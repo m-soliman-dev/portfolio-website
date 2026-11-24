@@ -10,6 +10,7 @@
 <body>
 
   <header class="hero">
+    <div class="hero-bg" aria-hidden="true"><div class="hero-art" id="heroArt"><span class="eye e1" style="left:48.1%;top:41%"></span><span class="eye e2" style="left:52.1%;top:41%"></span></div><span class="smoke s1"></span><span class="smoke s2"></span><span class="smoke s3"></span></div>
     <nav class="nav">
       <span class="logo">MS</span>
       <div class="nav-links">
@@ -163,5 +164,11 @@
     <p>&copy; 2026 Mohamed Soliman &middot; Built with HTML &amp; CSS</p>
   </footer>
 
+<script>
+(function(){var hero=document.querySelector('.hero'),art=document.getElementById('heroArt');
+function fit(){var W=hero.clientWidth,H=hero.clientHeight,w=Math.max(W,H*16/9),h=w*9/16;
+art.style.width=w+'px';art.style.height=h+'px';art.style.left=(W-w)/2+'px';art.style.top=(H-h)*0.4+'px';}
+fit();window.addEventListener('resize',fit);window.addEventListener('load',fit);})();
+</script>
 </body>
 </html>
