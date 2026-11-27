@@ -236,3 +236,4 @@ body {
 .hero-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 30% 45%,rgba(0,0,0,.55),rgba(0,0,0,.15) 70%);}
 .profile-photo{border-color:rgba(0,230,118,.6);}
 @media (prefers-reduced-motion: reduce){.btn-primary,.btn-primary::after{animation:none;}}
+.salat{background:linear-gradient(90deg,#010503,#04130b 50%,#010503);color:#f1dba6;text-align:center;font-size:14px;letter-spacing:.3px;padding:7px 12px;line-height:1.6;border-bottom:1px solid rgba(0,230,118,.35);text-shadow:0 0 10px rgba(241,219,166,.45);box-shadow:0 1px 14px rgba(0,230,118,.18);position:relative;z-index:3}
